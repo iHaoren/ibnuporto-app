@@ -1,0 +1,21 @@
+{
+  "name": "MyWebPortfolio",
+  "short_name": "I.H.A Portfolio",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#090b22",
+  "background_color": "#2b524e",
+  "display": "standalone"
+}
