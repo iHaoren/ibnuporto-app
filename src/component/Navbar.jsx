@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between">
         <h1 className="brand text-xl md:text-2xl font-bold">I . H . A</h1>
         
-        {/* Hamburger Menu Button */}
+        {/* Hamburger menu button */}
         <button 
           className="md:hidden text-2xl"
           onClick={toggleMenu}
@@ -20,7 +20,7 @@ const Navbar = () => {
           <i className={`ri-${isMenuOpen ? 'close' : 'menu'}-line`}></i>
         </button>
 
-        {/* Navigation Links */}
+        {/* Links Navigation*/}
         <ul className={`
           md:flex md:items-center md:gap-8
           fixed md:static
@@ -35,7 +35,7 @@ const Navbar = () => {
           <li className="mb-4 md:mb-0">
             <a
               href="#hero"
-              className="text-lg font-medium hover:bg-gradient-to-r from-[#3BF686] to-[#4CA9FF] hover:text-transparent bg-clip-text block"
+              className="text-lg font-medium hover:bg-gradient-to-r from-[#3BF686] to-[#4CA9FF] hover:text-transparent transition-colors bg-clip-text block"
               onClick={() => setIsMenuOpen(false)}
             >
               Home
@@ -44,7 +44,7 @@ const Navbar = () => {
           <li className="mb-4 md:mb-0">
             <a
               href="#about"
-              className="text-lg font-medium hover:bg-gradient-to-r from-[#3BF686] to-[#4CA9FF] hover:text-transparent bg-clip-text block"
+              className="text-lg font-medium hover:bg-gradient-to-r from-[#3BF686] to-[#4CA9FF] hover:text-transparent transition-colors bg-clip-text block"
               onClick={() => setIsMenuOpen(false)}
             >
               About
@@ -52,8 +52,8 @@ const Navbar = () => {
           </li>
           <li className="mb-4 md:mb-0">
             <a
-              href="#projects"
-              className="text-lg font-medium hover:bg-gradient-to-r from-[#3BF686] to-[#4CA9FF] hover:text-transparent bg-clip-text block"
+              href="#project"
+              className="text-lg font-medium hover:bg-gradient-to-r from-[#3BF686] to-[#4CA9FF] hover:text-transparent transition-colors bg-clip-text block"
               onClick={() => setIsMenuOpen(false)}
             >
               Project
@@ -62,7 +62,7 @@ const Navbar = () => {
           <li>
             <a
               href="#contact"
-              className="text-lg font-medium hover:bg-gradient-to-r from-[#3BF686] to-[#4CA9FF] hover:text-transparent bg-clip-text block"
+              className="text-lg font-medium hover:bg-gradient-to-r from-[#3BF686] to-[#4CA9FF] hover:text-transparent transition-colors bg-clip-text block"
               onClick={() => setIsMenuOpen(false)}
             >
               Contact
