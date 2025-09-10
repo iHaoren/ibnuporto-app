@@ -350,8 +350,8 @@ function App() {
           Let's connect with me
         </p>
         <form
-          action="https://formsubmit.co/ibnuharunalmudzakir@gmail.com"
-          method="POST"
+          action="https://getform.io/f/amdyjomb"
+          method="POST" encType="multipart/form-data" target="_blank"
           className="bg-zinc-800/50 p-10 mx-auto sm:w-fit w-full rounded-2xl border border-green-400"
           autoComplete="off"
           data-aos="fade-up"
