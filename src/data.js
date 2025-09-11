@@ -21,6 +21,7 @@ export const listProyek = [
     desk: "Projek web iHaorenCafe, inspiration learning by shandikagalih. Source Youtube: Web Programming UNPAS",
     tools: ["HTML", "CSS", "Javascript"],
     dad: "200",
+    link: "https://ihaoren.github.io/iHaoren-Cafe/"
   },
   {
     id: 2,
@@ -29,14 +30,16 @@ export const listProyek = [
     desk: "🧮 Simple Kalkulator A simple, responsive calculator built using HTML, CSS, and JavaScript. Try it live 👉 simple-kalkulator",
     tools: ["HTML", "CSS", "Javascript"],
     dad: "300",
+    link: "https://ihaoren.github.io/simple-calculator/"
   },
   {
     id: 3,
     gambar: Proyek3,
-    nama: "Website Blog",
-    desk: "Progressed",
-    tools: ["HTML", "CSS" , "Javascript", "Bootstrap"],
+    nama: "First my Web Portofolio",
+    desk: "First my web portofolio, I created with Tailwindcss",
+    tools: ["HTML", "TailwindCSS" , "Javascript"],
     dad: "400",
+    link: "https://ihaoren.github.io/Portoku/"
   },
   {
     id: 4,
@@ -45,6 +48,7 @@ export const listProyek = [
     desk: "Snake Game adalah versi modern dari game legendaris ular yang kita kenal sejak zaman HP jadul.",
     tools: ["HTML Canvas", "CSS" , "Javascript"],
     dad: "500",
+    link: "https://ihaoren.github.io/snakegame/"
   },
   {
     id: 5,
@@ -53,6 +57,7 @@ export const listProyek = [
     desk: "This is Random Quote Generator I'm created this project with HTML, CSS , Javascript",
     tools: ["HTML", "CSS" , "Javascript"],
     dad: "600",
+    link: "https://ihaoren.github.io/Randomquote/"
   },
   {
     id: 6,
@@ -61,5 +66,6 @@ export const listProyek = [
     desk: "Coming soon",
     tools: ["...."],
     dad: "700",
+    link: ""
   },
 ];

@@ -48,7 +48,8 @@ function App() {
           {/* Tombol CTA */}
           <div className="flex flex-wrap justify-center gap-4 animate__animated animate__fadeInUp animate__delay-1s">
             <a
-              href="#"
+              href="/assets/IBNU-HARUN-ALMUDZAKIR-Resume.docx"
+              download
               className="px-8 py-4 bg-emerald-600 rounded-lg font-medium hover:bg-emerald-500 transition-colors flex items-center gap-2 text-white"
             >
               Download CV <i className="ri-download-line"></i>
@@ -104,7 +105,8 @@ function App() {
         <div
           className="grid md:grid-cols-2 gap-12 items-center"
           data-aos="fade-up"
-          data-aos-duration="1000" data-aos-once="true"
+          data-aos-duration="1000"
+          data-aos-once="true"
         >
           <div
             className="relative group"
@@ -252,7 +254,7 @@ function App() {
               data-aos-duration="1000"
             >
               <img
-                src="../public/assets/tools/figma.png"
+                src="/assets/tools/figma.png"
                 alt="vscode"
                 className="w-10 mx-2 py-4"
               />
@@ -267,7 +269,7 @@ function App() {
               data-aos-duration="1000"
             >
               <img
-                src="../public/assets/tools/vscode.png"
+                src="/assets/tools/vscode.png"
                 alt="vscode"
                 className="w-10 mx-2 py-4"
               />
@@ -296,35 +298,51 @@ function App() {
         >
           Here are some projects I have created
         </p>
-        <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
+        <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
           {listProyek.map((proyek) => (
             <div
               key={proyek.id}
-              className="p-4 bg-zinc-800/50 rounded-md border-zinc-700/50"
+              className="flex flex-col h-full bg-zinc-800/50 rounded-lg border border-zinc-700/50 overflow-hidden"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay={proyek.dad}
             >
-              <img src={proyek.gambar} alt="Proyek Image" className="w-full" />
-              <div>
-                <h1 className="text-2xl font-bold my-4">{proyek.nama}</h1>
-                <p className="text-base/loose mb-4">{proyek.desk}</p>
-                <div className="flex flex-wrap gap-2">
+              <div className="aspect-video w-full overflow-hidden">
+                <img
+                  src={proyek.gambar}
+                  alt={proyek.nama}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+
+              <div className="flex flex-col flex-grow p-6 space-y-4">
+                <h1 className="text-xl font-bold text-white">{proyek.nama}</h1>
+
+                <p className="text-zinc-400 flex-grow">{proyek.desk}</p>
+
+                <div className="flex flex-wrap gap-2 pt-4">
                   {proyek.tools.map((tool, index) => (
-                    <p
-                      className="py-1 px-3 border border-zinc-700 bg-zinc-800/50 rounded-md font font-semibold"
+                    <span
                       key={index}
+                      className="px-3 py-1 text-sm bg-zinc-900 border border-zinc-700 rounded-md font-medium text-zinc-300"
                     >
                       {tool}
-                    </p>
+                    </span>
                   ))}
                 </div>
-                <div className="mt-8 text-center">
+
+                <div className="pt-4">
                   <a
-                    className="bg-emerald-600 hover:bg-emerald-500 transition-colors text-white p-3 rounded-lg block border border-zinc-500"
-                    href="#"
+                    className={`block text-center py-3 px-4 rounded-lg font-medium transition-colors ${
+                      proyek.link
+                        ? "bg-emerald-600 hover:bg-emerald-500 text-white"
+                        : "bg-zinc-700 text-zinc-400 cursor-not-allowed"
+                    }`}
+                    href={proyek.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    View Website
+                    {proyek.link ? "View Website" : "Coming Soon"}
                   </a>
                 </div>
               </div>
@@ -351,7 +369,9 @@ function App() {
         </p>
         <form
           action="https://getform.io/f/amdyjomb"
-          method="POST" encType="multipart/form-data" target="_blank"
+          method="POST"
+          encType="multipart/form-data"
+          target="_blank"
           className="bg-zinc-800/50 p-10 mx-auto sm:w-fit w-full rounded-2xl border border-green-400"
           autoComplete="off"
           data-aos="fade-up"
