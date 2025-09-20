@@ -35,7 +35,7 @@ function App() {
                 <TypeAnimation
                   sequence={[
                     3000,
-                    "A fresh graduates from vocational high schools majoring in Industrial Electronics Engineering who are interested in the fields of Information Technology and Programming.",
+                    "Vocational High School Graduate | Industrial Electronics & IT Enthusiast",
                   ]}
                   wrapper="span"
                   speed={60}
@@ -48,7 +48,7 @@ function App() {
           {/* Tombol CTA */}
           <div className="flex flex-wrap justify-center gap-4 animate__animated animate__fadeInUp animate__delay-1s">
             <a
-              href="/assets/IBNU-HARUN-ALMUDZAKIR-Resume.docx"
+              href="/assets/IHA - Resume.docx"
               download
               className="px-8 py-4 bg-emerald-600 rounded-lg font-medium hover:bg-emerald-500 transition-colors flex items-center gap-2 text-white"
             >
@@ -131,15 +131,11 @@ function App() {
             </h2>
             <div className="bg-zinc-800/50 p-6 rounded-xl border border-zinc-700/50">
               <p className="text-zinc-300 leading-relaxed">
-                I am a fresh graduate of Vocational High School in SMK Krian 2
-                Sidoarjo majoring in Industrial Electronics with internship
-                experience at PT. Adiprima Suraprinta, which focuses on motor
-                maintenance, Motor Control Center panels, and general electrical
-                systems.
-                <br />I am passonate about building a career in the field of
-                Industrial Electronics while developing skills in the field of
-                Information Technology, and I have recently learned several
-                tools and skills.
+                Vocational High School graduate in Industrial Electronics with
+                internship experience at PT Adiprima Suraprinta. Strong
+                understanding of basic electrical systems and eager to build a
+                career in Industrial Electronics while enhancing skills in
+                Information Technology.
               </p>
             </div>
           </div>
