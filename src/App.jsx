@@ -240,7 +240,7 @@ function App() {
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              <i className="ri-tailwind-css-fill text-cyan-500 text-4xl px-2"></i>
+              <i className="ri-openai-fill text-white text-4xl px-2"></i>
               <div>
                 <h1 className="text-zinc-100">ChatGPT</h1>
                 <p className="text-zinc-400">
