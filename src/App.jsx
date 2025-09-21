@@ -55,10 +55,10 @@ function App() {
               Download CV <i className="ri-download-line"></i>
             </a>
             <a
-              href="#projects"
+              href="#project"
               className="px-8 py-4 bg-zinc-800 rounded-lg font-medium hover:bg-zinc-700 transition-colors flex items-center gap-2"
             >
-              View Projects <i className="ri-arrow-right-line"></i>
+              View Project <i className="ri-arrow-right-line"></i>
             </a>
           </div>
 

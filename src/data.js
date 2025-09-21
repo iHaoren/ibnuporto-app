@@ -48,7 +48,7 @@ export const listProyek = [
     desk: "Snake Game adalah versi modern dari game legendaris ular yang kita kenal sejak zaman HP jadul.",
     tools: ["HTML Canvas", "CSS" , "Javascript"],
     dad: "500",
-    link: "https://ihaoren.github.io/snakegame/"
+    link: "https://ihaoren.github.io/snakeGame/"
   },
   {
     id: 5,
