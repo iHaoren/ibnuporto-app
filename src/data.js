@@ -1,4 +1,4 @@
-import AboutImage from "/assets/about-img.webp";
+import AboutImage from "../public/assets/about-img.pnggit";
 
 const Image = {
   AboutImage
