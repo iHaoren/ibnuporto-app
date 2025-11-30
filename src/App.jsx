@@ -35,7 +35,7 @@ function App() {
                 <TypeAnimation
                   sequence={[
                     3000,
-                    "Vocational High School Graduate | Industrial Electronics & IT Enthusiast",
+                    "Electrical Engineering | Basic teamwork | Frontend dev enthusiast",
                   ]}
                   wrapper="span"
                   speed={60}
@@ -48,7 +48,7 @@ function App() {
           {/* Tombol CTA */}
           <div className="flex flex-wrap justify-center gap-4 animate__animated animate__fadeInUp animate__delay-1s">
             <a
-              href="/public/assets/Ibnu_Harun_Resume.pdf"
+              href="/public/assets/Ibnu Harun - Resume.pdf"
               download
               className="px-8 py-4 bg-emerald-600 rounded-lg font-medium hover:bg-emerald-500 transition-colors flex items-center gap-2 text-white"
             >
@@ -131,11 +131,13 @@ function App() {
             </h2>
             <div className="bg-zinc-800/50 p-6 rounded-xl border border-zinc-700/50">
               <p className="text-zinc-300 leading-relaxed">
-                Vocational High School graduate in Industrial Electronics with
-                internship experience at PT Adiprima Suraprinta. Strong
-                understanding of basic electrical systems and eager to build a
-                career in Industrial Electronics while enhancing skills in
-                Information Technology.
+                A graduate of Industrial Electronics Engineering with six months
+                of internship experience at PT Adiprima Suraprinta. I have basic
+                exposure to industrial work environments and experience
+                following structured workflows. I am currently focusing on
+                building new skills in software development by learning Flutter
+                and Dart for application development. I am open to opportunities
+                and projects that help strengthen my abilities in programming.
               </p>
             </div>
           </div>

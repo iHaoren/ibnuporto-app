@@ -1,4 +1,4 @@
-import AboutImage from "../public/assets/about-img.png";
+import AboutImage from "../public/assets/about-img.jpg";
 
 const Image = {
   AboutImage
