@@ -48,7 +48,7 @@ function App() {
           {/* Tombol CTA */}
           <div className="flex flex-wrap justify-center gap-4 animate__animated animate__fadeInUp animate__delay-1s">
             <a
-              href="/public/assets/Ibnu Harun - Resume.pdf"
+              href="/public/assets/IbnuHarun_Resume.pdf"
               download
               className="px-8 py-4 bg-emerald-600 rounded-lg font-medium hover:bg-emerald-500 transition-colors flex items-center gap-2 text-white"
             >
