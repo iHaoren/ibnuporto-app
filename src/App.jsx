@@ -48,11 +48,10 @@ function App() {
           {/* Tombol CTA */}
           <div className="flex flex-wrap justify-center gap-4 animate__animated animate__fadeInUp animate__delay-1s">
             <a
-              href="/public/assets/IbnuHarun_Resume.pdf"
-              download="IbnuHarun_Resume.pdf"
+              href="https://drive.google.com/file/d/1Mug3dIqSMio11d_P81nXYZLfAXKKXb8l/view?usp=drive_link"
               className="px-8 py-4 bg-emerald-600 rounded-lg font-medium hover:bg-emerald-500 transition-colors flex items-center gap-2 text-white"
             >
-              Download CV <i className="ri-download-line"></i>
+              View Resume <i className="ri-eye-fill"></i>
             </a>
             <a
               href="#project"
