@@ -30,16 +30,16 @@ export const listProyek = [
     desk: "🧮 Simple Kalkulator A simple, responsive calculator built using HTML, CSS, and JavaScript. Try it live 👉 simple-kalkulator",
     tools: ["HTML", "CSS", "Javascript"],
     dad: "300",
-    link: "https://ihaoren.github.io/simple-calculator/"
+    link: " https://ihaoren.github.io/simple-kalkulator/"
   },
   {
     id: 3,
     gambar: Proyek3,
-    nama: "First my Web Portofolio",
-    desk: "First my web portofolio, I created with Tailwindcss",
-    tools: ["HTML", "TailwindCSS" , "Javascript"],
+    nama: "Memory Wall",
+    desk: "Kumpulan foto bersama teman-teman PBL Smart Building di BPVP Sidoarjo.",
+    tools: ["Vite", "React", "TailwindCSS" , "Javascript"],
     dad: "400",
-    link: "https://ihaoren.github.io/Portoku/"
+    link: "https://smart-memorywall.vercel.app"
   },
   {
     id: 4,
