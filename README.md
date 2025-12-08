@@ -1,2 +1,2 @@
 # This My Web Portofolio
-https://github.com/iHaoren/ibnuporto-app
+https://ihaoren.github.io/ibnuporto-app
