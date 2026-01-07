@@ -35,7 +35,7 @@ function App() {
                 <TypeAnimation
                   sequence={[
                     3000,
-                    "Electrical Engineering | Basic teamwork | Frontend dev enthusiast",
+                    "Junior Web Developer | Front-End dev enthusiast",
                   ]}
                   wrapper="span"
                   speed={60}
@@ -130,13 +130,13 @@ function App() {
             </h2>
             <div className="bg-zinc-800/50 p-6 rounded-xl border border-zinc-700/50">
               <p className="text-zinc-300 leading-relaxed">
-                A graduate of Industrial Electronics Engineering with six months
-                of internship experience at PT Adiprima Suraprinta. I have basic
-                exposure to industrial work environments and experience
-                following structured workflows. I am currently focusing on
-                building new skills in software development by learning Flutter
-                and Dart for application development. I am open to opportunities
-                and projects that help strengthen my abilities in programming.
+                A 2025 graduate of Industrial Electronics Technical Vocational
+                School with a focus on IT, particularly web development. I am
+                proficient in front-end development using React.js and Tailwind
+                CSS. My internship experience in the industry has shaped my
+                discipline, teamwork skills, and strong troubleshooting logic. I
+                am currently actively building various web projects that can be
+                accessed through my portfolio and GitHub.
               </p>
             </div>
           </div>
@@ -204,17 +204,6 @@ function App() {
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              <i className="ri-bootstrap-fill text-purple-500 text-3xl px-2"></i>
-              <div>
-                <h1 className="text-zinc-100">Bootstrap</h1>
-                <p className="text-zinc-400">Framework</p>
-              </div>
-            </div>
-            <div
-              className="group flex items-center gap-2 p-3 border border-zinc-700/50 rounded-md hover:bg-zinc-800"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
               <i className="ri-github-fill text-white text-3xl px-2"></i>
               <div>
                 <h1 className="text-zinc-100">Github</h1>
@@ -243,21 +232,6 @@ function App() {
                 <p className="text-zinc-400">
                   Fixing bugs and project suggestions
                 </p>
-              </div>
-            </div>
-            <div
-              className="group flex items-center gap-2 p-3 border border-zinc-700/50 rounded-md hover:bg-zinc-800"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
-              <img
-                src="/assets/tools/figma.png"
-                alt="vscode"
-                className="w-10 mx-2 py-4"
-              />
-              <div>
-                <h1 className="text-zinc-100">Figma</h1>
-                <p className="text-zinc-400">Design</p>
               </div>
             </div>
             <div

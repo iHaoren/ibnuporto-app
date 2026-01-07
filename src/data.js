@@ -62,7 +62,7 @@ export const listProyek = [
   {
     id: 6,
     gambar: Proyek6,
-    nama: "Weather App",
+    nama: "Coming Soon",
     desk: "Coming soon",
     tools: ["...."],
     dad: "700",
