@@ -14,7 +14,7 @@ const About = () => {
           data-aos="fade-right"
           data-aos-duration="2000"
         >
-          <div className="absolute -inset-1 bg-gradient-to-r from-[#3BF686] to-[#4CA9FF] rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
+          <div className="absolute -inset-1 bg-linear-to-r from-[#F59E0B] to-[#F43F5E] rounded-2xl blur opacity-60 group-hover:opacity-100 transition duration-1000"></div>
           <img
             src={DataImage.AboutImage}
             alt="About Ibnu"
@@ -27,18 +27,30 @@ const About = () => {
           data-aos="fade-left"
           data-aos-duration="3000"
         >
-          <h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-[#3BF686] to-[#4CA9FF] text-transparent bg-clip-text">
+          <h2 className="text-2xl md:text-3xl font-bold bg-linear-to-r from-[#F59E0B] to-[#F43F5E] text-transparent bg-clip-text">
             About Me
           </h2>
-          <div className="bg-zinc-800/50 p-6 rounded-xl border border-zinc-700/50">
-            <p className="text-zinc-300 leading-relaxed">
-              A 2025 graduate of Industrial Electronics Technical Vocational
-              School with a focus on IT, particularly web development. I am
-              proficient in front-end development using React.js and Tailwind
-              CSS. My internship experience in the industry has shaped my
-              discipline, teamwork skills, and strong troubleshooting logic. I
-              am currently actively building various web projects that can be
-              accessed through my portfolio and GitHub.
+          <div className="bg-stone-800/50 p-6 rounded-xl border border-stone-700/40">
+            <p className="text-stone-300 leading-relaxed">
+              I am a recent graduate of a vocational high school with a major in
+              Electrical Engineering. Currently, I am shifting my career focus
+              to Python Development. My background in Electrical Engineering has
+              trained me to think systematically, logically, and solve problems.
+              Now, I apply the same mindset to programming, data, and digital
+              products.
+              <br />I am actively developing my skills in programming and
+              artificial intelligence. I learned the basics of the Python
+              programming language through YouTube and the Dicoding Indonesia
+              scholarship program. I also actively participate in training
+              programs organized by Dicoding Indonesia, such as the IDCamp 2025
+              program, Coding Camp 2026, Microsoft Elevate Training Center, and
+              AWS Back-End Academy.
+              <br />I am interested in how artificial intelligence solves
+              real-world problems. For example, I am learning how applications
+              automate daily tasks and how data supports decision-making in
+              sales, operations, and product design. I aspire to develop
+              economic stability and help micro, small, and medium enterprises
+              (MSMEs) in Indonesia.
             </p>
           </div>
         </div>

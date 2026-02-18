@@ -1,7 +1,7 @@
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Technologies from "./components/Technologies";
-import Projects from "./components/Projects";
+import Gallery from "./components/Gallery";
+import Documentation from "./components/Documentation";
 import Contact from "./components/Contact";
 
 function App() {
@@ -9,8 +9,8 @@ function App() {
     <main className="space-y-24">
       <Hero />
       <About />
-      <Technologies />
-      <Projects />
+      <Gallery />
+      <Documentation />
       <Contact />
     </main>
   );

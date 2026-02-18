@@ -8,18 +8,30 @@
   body {
     font-family: "Sora", sans-serif;
     overflow-x: hidden;
-    background-color: black;
+    background-color: #1c1917;
+    color: #e7e5e4;
+  }
+
+  /* Warm selection color */
+  ::selection {
+    background-color: rgba(245, 158, 11, 0.3);
+    color: #fff;
   }
 }
 
 .type-animation-cursor {
-  color: #3BF686;
+  color: #f59e0b;
   animation: blink 1s infinite;
 }
 
 @keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
 .gradient-border {
@@ -31,14 +43,32 @@
   position: absolute;
   inset: 0;
   border-radius: 1rem;
-  padding: 2px; 
-  background: linear-gradient(to right, #3BF686, #4CA9FF);
-  -webkit-mask: 
-    linear-gradient(#fff 0 0) content-box, 
+  padding: 2px;
+  background: linear-gradient(to right, #f59e0b, #f43f5e);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
-  mask: 
-    linear-gradient(#fff 0 0) content-box, 
+  mask:
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
+}
+
+/* Warm scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1c1917;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #44403c;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f59e0b;
 }

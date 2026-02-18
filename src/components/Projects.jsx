@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <section className="py-10 mt-10" id="project">
       <h1
-        className="text-center text-2xl md:text-3xl font-bold mb-4 bg-gradient-to-r from-[#3BF686] to-[#4CA9FF] text-transparent bg-clip-text"
+        className="text-center text-2xl md:text-3xl font-bold mb-4 bg-linear-to-r from-[#3BF686] to-[#4CA9FF] text-transparent bg-clip-text"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
@@ -34,10 +34,10 @@ const Projects = () => {
               />
             </div>
 
-            <div className="flex flex-col flex-grow p-6 space-y-4">
+            <div className="flex flex-col grow p-6 space-y-4">
               <h1 className="text-xl font-bold text-white">{proyek.nama}</h1>
 
-              <p className="text-zinc-400 flex-grow">{proyek.desk}</p>
+              <p className="text-zinc-400 grow">{proyek.desk}</p>
 
               <div className="flex flex-wrap gap-2 pt-4">
                 {proyek.tools.map((tool, index) => (
