@@ -1,5 +1,3 @@
-import DataImage from "../data";
-
 const About = () => {
   return (
     <section className="py-8" id="about">
@@ -16,7 +14,7 @@ const About = () => {
         >
           <div className="absolute -inset-1 bg-linear-to-r from-[#F59E0B] to-[#F43F5E] rounded-2xl blur opacity-60 group-hover:opacity-100 transition duration-1000"></div>
           <img
-            src={DataImage.AboutImage}
+            src="../assets/about-img.webp"
             alt="About Ibnu"
             className="relative rounded-2xl w-full h-[400px] object-cover"
           />
