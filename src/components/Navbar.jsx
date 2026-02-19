@@ -8,11 +8,11 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { label: "Beranda", href: "#hero" },
-    { label: "Tentang", href: "#about" },
-    { label: "Galeri", href: "#gallery" },
-    { label: "Dokumentasi", href: "#docs" },
-    { label: "Kontak", href: "#contact" },
+    { label: "Home", href: "#hero" },
+    { label: "About", href: "#about" },
+    { label: "Gallery", href: "#gallery" },
+    { label: "Docs", href: "#docs" },
+    { label: "Contact", href: "#contact" },
   ];
 
   return (
@@ -22,7 +22,7 @@ const Navbar = () => {
           I . H . A
         </h1>
 
-        {/* Tombol menu hamburger */}
+        {/* Hamburger menu button */}
         <button
           className="md:hidden text-2xl text-stone-300 hover:text-amber-400 transition-colors"
           onClick={toggleMenu}
@@ -30,7 +30,7 @@ const Navbar = () => {
           <i className={`ri-${isMenuOpen ? "close" : "menu"}-line`}></i>
         </button>
 
-        {/* Navigasi */}
+        {/* Navigation Links */}
         <ul
           className={`
           md:flex md:items-center md:gap-8

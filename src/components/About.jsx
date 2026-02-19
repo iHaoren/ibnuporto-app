@@ -17,7 +17,7 @@ const About = () => {
           <div className="absolute -inset-1 bg-linear-to-r from-[#F59E0B] to-[#F43F5E] rounded-2xl blur opacity-60 group-hover:opacity-100 transition duration-1000"></div>
           <img
             src={DataImage.AboutImage}
-            alt="Tentang Ibnu"
+            alt="About Ibnu"
             className="relative rounded-2xl w-full h-[400px] object-cover"
           />
         </div>
@@ -28,30 +28,29 @@ const About = () => {
           data-aos-duration="3000"
         >
           <h2 className="text-2xl md:text-3xl font-bold bg-linear-to-r from-[#F59E0B] to-[#F43F5E] text-transparent bg-clip-text">
-            Tentang Saya
+            About Me
           </h2>
           <div className="bg-stone-800/50 p-6 rounded-xl border border-stone-700/40">
             <p className="text-stone-300 leading-relaxed">
-              Saya lulusan baru dari SMK jurusan Teknik Elektronika. Saat ini,
-              saya sedang mengalihkan fokus karier ke bidang Python Development.
-              Latar belakang di Teknik Elektronika sudah melatih saya untuk
-              berpikir sistematis, logis, dan menyelesaikan masalah. Sekarang,
-              saya menerapkan pola pikir yang sama ke dunia pemrograman, data,
-              dan produk digital.
+              Hello! I&apos;m Ibnu Harun Almudzakir, a fresh graduate from a
+              vocational high school majoring in Electrical Engineering.
+              I&apos;m currently exploring a career path in Python development,
+              bringing along the problem-solving mindset I built during my
+              engineering studies.
               <br />
-              Saya aktif mengembangkan kemampuan di bidang pemrograman dan
-              kecerdasan buatan. Saya belajar dasar-dasar bahasa Python lewat
-              YouTube dan program beasiswa Dicoding Indonesia. Saya juga aktif
-              mengikuti pelatihan yang diselenggarakan Dicoding Indonesia,
-              seperti program IDCamp 2025, Coding Camp 2026, Microsoft Elevate
-              Training Center, dan AWS Back-End Academy.
               <br />
-              Saya tertarik dengan bagaimana kecerdasan buatan bisa
-              menyelesaikan masalah nyata. Misalnya, saya belajar bagaimana
-              aplikasi mengotomatisasi tugas sehari-hari dan bagaimana data
-              mendukung pengambilan keputusan di bidang penjualan, operasional,
-              dan desain produk. Saya bercita-cita untuk mengembangkan
-              stabilitas ekonomi dan membantu UMKM di Indonesia.
+              I enjoy learning new things — most of what I know about
+              programming comes from online resources like YouTube and training
+              programs from Dicoding Indonesia, including IDCamp 2025, Coding
+              Camp 2026, and AWS Back-End Academy. I&apos;m still growing and
+              always looking for opportunities to improve.
+              <br />
+              <br />
+              I&apos;m curious about how technology, especially AI, can help
+              solve everyday problems — from automating simple tasks to
+              supporting better decision-making. Down the road, I hope to
+              contribute to projects that make a real difference, particularly
+              for small businesses in Indonesia.
             </p>
           </div>
         </div>
