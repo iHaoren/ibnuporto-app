@@ -8,19 +8,18 @@ const Gallery = () => {
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        Gallery
+        Galeri
       </h2>
       <p
         className="text-center text-stone-400 mb-12"
         data-aos="fade-up"
         data-aos-delay="200"
       >
-        Moments, memories, and milestones
+        Momen, kenangan, dan pencapaian
       </p>
 
       <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
         {placeholders.map((item, index) => {
-          // Vary heights to create a masonry look
           const heights = [
             "h-56",
             "h-72",
@@ -42,7 +41,7 @@ const Gallery = () => {
               data-aos-duration="800"
               data-aos-delay={index * 80}
             >
-              {/* Warm glow on hover */}
+              {/* Efek glow hangat saat hover */}
               <div className="absolute inset-0 bg-linear-to-br from-amber-500/0 to-rose-500/0 group-hover:from-amber-500/5 group-hover:to-rose-500/5 transition-all duration-500"></div>
 
               <div className="relative z-10 flex flex-col items-center gap-3">
@@ -50,7 +49,7 @@ const Gallery = () => {
                   <i className="ri-image-add-line text-2xl text-stone-500 group-hover:text-amber-400 transition-colors duration-300"></i>
                 </div>
                 <span className="text-sm text-stone-500 group-hover:text-stone-400 transition-colors duration-300 font-medium">
-                  Photo {item}
+                  Foto {item}
                 </span>
               </div>
             </div>

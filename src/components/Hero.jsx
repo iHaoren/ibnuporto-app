@@ -7,17 +7,17 @@ const Hero = () => {
       id="hero"
     >
       <div className="max-w-3xl mx-auto text-center space-y-8">
-        {/* Hero title */}
+        {/* Judul Hero */}
         <div className="space-y-4">
           <div className="h-[120px] md:h-[160px]">
             <h1 className="text-4xl md:text-6xl font-bold bg-linear-to-r from-[#F59E0B] to-[#F43F5E] text-transparent bg-clip-text leading-tight">
               <TypeAnimation
                 sequence={[
-                  "Hi",
+                  "Halo",
                   500,
-                  "Hi, I'm",
+                  "Halo, saya",
                   500,
-                  "Hi, I'm Ibnu Harun Almudzakir",
+                  "Halo, saya Ibnu Harun Almudzakir",
                   1000,
                 ]}
                 wrapper="span"
@@ -31,7 +31,7 @@ const Hero = () => {
               <TypeAnimation
                 sequence={[
                   3000,
-                  "Electronics Engineering Fresh Graduate | Python Enthusiast",
+                  "Lulusan Teknik Elektronika | Penggemar Python",
                 ]}
                 wrapper="span"
                 speed={60}
@@ -41,23 +41,23 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* CTA Buttons */}
+        {/* Tombol CTA */}
         <div className="flex flex-wrap justify-center gap-4 animate__animated animate__fadeInUp animate__delay-1s">
           <a
             href="https://drive.google.com/file/d/1iQHqHcKT5xKq8fOxG7T42RXvjBTJ_gAL/view?usp=drive_link"
             className="px-8 py-4 bg-amber-600 rounded-xl font-medium hover:bg-amber-500 transition-all duration-300 flex items-center gap-2 text-white shadow-lg shadow-amber-600/20 hover:shadow-amber-500/30 hover:-translate-y-0.5"
           >
-            View Resume <i className="ri-eye-fill"></i>
+            Lihat Resume <i className="ri-eye-fill"></i>
           </a>
           <a
             href="#gallery"
             className="px-8 py-4 bg-stone-700/80 rounded-xl font-medium hover:bg-stone-600 transition-all duration-300 flex items-center gap-2 text-stone-200 hover:-translate-y-0.5"
           >
-            View Gallery <i className="ri-arrow-right-line"></i>
+            Lihat Galeri <i className="ri-arrow-right-line"></i>
           </a>
         </div>
 
-        {/* Social Links */}
+        {/* Media Sosial */}
         <div className="flex items-center justify-center gap-6 animate__animated animate__fadeInUp animate__delay-1s">
           <a
             href="https://instagram.com/iharun_al"

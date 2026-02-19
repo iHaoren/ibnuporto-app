@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="mt-24 py-8 border-t border-stone-800/50">
       <div className="flex md:flex-row flex-col gap-6 md:gap-0 justify-between items-center">
         <h1 className="text-2xl font-bold">
-          By
+          Oleh
           <span className="px-2 bg-linear-to-r from-[#F59E0B] to-[#F43F5E] text-transparent bg-clip-text">
             Ibnu Harun
           </span>
@@ -14,19 +14,19 @@ const Footer = () => {
             href="#hero"
             className="text-base font-medium text-stone-500 hover:text-amber-400 transition-colors duration-300"
           >
-            Home
+            Beranda
           </a>
           <a
             href="#about"
             className="text-base font-medium text-stone-500 hover:text-amber-400 transition-colors duration-300"
           >
-            About
+            Tentang
           </a>
           <a
             href="#gallery"
             className="text-base font-medium text-stone-500 hover:text-amber-400 transition-colors duration-300"
           >
-            Gallery
+            Galeri
           </a>
         </div>
 
@@ -67,7 +67,8 @@ const Footer = () => {
       </div>
 
       <p className="text-center text-stone-600 text-sm mt-6">
-        © {new Date().getFullYear()} Ibnu Harun Almudzakir. All rights reserved.
+        © {new Date().getFullYear()} Ibnu Harun Almudzakir. Hak cipta
+        dilindungi.
       </p>
     </footer>
   );

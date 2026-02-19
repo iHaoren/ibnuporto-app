@@ -54,14 +54,14 @@ const Contact = () => {
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        Get In Touch
+        Hubungi Saya
       </h2>
       <p
         className="text-center text-stone-400 mb-12"
         data-aos="fade-up"
         data-aos-delay="200"
       >
-        Let&apos;s connect and build something great together
+        Yuk terhubung dan bangun sesuatu yang keren bareng-bareng
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">
@@ -76,7 +76,7 @@ const Contact = () => {
             data-aos-duration="800"
             data-aos-delay={contact.delay}
           >
-            {/* Warm hover glow */}
+            {/* Efek glow hangat saat hover */}
             <div className="absolute inset-0 bg-linear-to-br from-amber-500/0 to-rose-500/0 group-hover:from-amber-500/5 group-hover:to-rose-500/5 transition-all duration-500 rounded-2xl"></div>
 
             <div className="relative z-10 flex items-center gap-4">
