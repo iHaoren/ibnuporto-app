@@ -20,7 +20,8 @@ const dummyData = {
     {
       id: 1,
       title: "Training Certificate",
-      description: "Has finish Project Based Learning Off job Training on with specification.",
+      description:
+        "Has finish Project Based Learning Off job Training on with specification.",
       icon: "ri-file-text-line",
       image: "/assets/docs/cert1.webp",
       link: "https://link-to-certificate.com",
@@ -29,7 +30,8 @@ const dummyData = {
     {
       id: 2,
       title: "Field Work Practice Certificate",
-      description: "Completed the learning program at IDUKA (Industry, Business & Work World) in the form of Field Work Practice (PKL) held at PT ADIPRIMA SURAPRINTA.",
+      description:
+        "Completed the learning program at IDUKA (Industry, Business & Work World) in the form of Field Work Practice (PKL) held at PT ADIPRIMA SURAPRINTA.",
       icon: "ri-graduation-cap-line",
       image: "/assets/docs/cert2.webp",
       link: null,
@@ -37,8 +39,9 @@ const dummyData = {
     },
     {
       id: 3,
-      title: "Certificate / Document 3",
-      description: "Add your certificate or documentation description here.",
+      title: "Self-Development Exam Certificate",
+      description:
+        "The Self-Development Test (UPD) is one of the tests required for graduation at SMK Krian 2 Sidoarjo, replacing the National Examination (UN).",
       icon: "ri-graduation-cap-line",
       image: "/assets/docs/cert3.webp",
       link: null,
@@ -47,7 +50,8 @@ const dummyData = {
     {
       id: 4,
       title: "Certificate / Document 4",
-      description: "Add your certificate or documentation description here.",
+      description:
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       icon: "ri-bookmark-line",
       image: null,
       link: null,
@@ -56,7 +60,8 @@ const dummyData = {
     {
       id: 5,
       title: "Certificate / Document 5",
-      description: "Add your certificate or documentation description here.",
+      description:
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       icon: "ri-shield-star-line",
       image: null,
       link: null,
@@ -64,8 +69,9 @@ const dummyData = {
     },
     {
       id: 6,
-      title: "Certificate / Document 6",
-      description: "Add your certificate or documentation description here.",
+      title: "coming soon",
+      description:
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       icon: "ri-graduation-cap-line",
       image: null,
       link: null,
