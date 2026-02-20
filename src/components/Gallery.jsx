@@ -1,8 +1,3 @@
-// ============================================================
-// GALLERY PHOTOS — Edit this array to add your photos!
-// Put your image files in: public/assets/gallery/
-// Then update the "src" paths below.
-// ============================================================
 import dummyData from "../data";
 
 const Gallery = () => {
@@ -25,7 +20,7 @@ const Gallery = () => {
         data-aos="fade-up"
         data-aos-delay="200"
       >
-        Moments, memories, and milestones
+        Moments, memories, and stories
       </p>
 
       <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">

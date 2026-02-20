@@ -1,8 +1,3 @@
-// ============================================================
-// DOCUMENTATION ITEMS — Edit this array to add your certs!
-// Put your images in: public/assets/docs/
-// Then update the "image" paths and details below.
-// ============================================================
 import dummyData from "../data";
 
 const Documentation = () => {
