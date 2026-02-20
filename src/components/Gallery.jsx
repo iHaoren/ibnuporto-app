@@ -3,14 +3,10 @@
 // Put your image files in: public/assets/gallery/
 // Then update the "src" paths below.
 // ============================================================
-const galleryPhotos = [
-  // { src: "/assets/gallery/foto1.webp", alt: "Description of photo 1" },
-  // { src: "/assets/gallery/foto2.webp", alt: "Description of photo 2" },
-  // { src: "/assets/gallery/foto3.webp", alt: "Description of photo 3" },
-  // Uncomment lines above and add your photos!
-];
+import dummyData from "../data";
 
 const Gallery = () => {
+  const galleryPhotos = dummyData.gallery;
   // If no photos added yet, show 9 placeholders
   const showPlaceholders = galleryPhotos.length === 0;
   const placeholders = Array.from({ length: 9 }, (_, i) => i + 1);

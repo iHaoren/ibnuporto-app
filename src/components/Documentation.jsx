@@ -3,64 +3,10 @@
 // Put your images in: public/assets/docs/
 // Then update the "image" paths and details below.
 // ============================================================
-const documentationItems = [
-  {
-    id: 1,
-    title: "Certificate / Document 1",
-    description: "Add your certificate or documentation description here.",
-    icon: "ri-award-line",
-    image: null, // Change to: "/assets/docs/cert1.webp"
-    link: null, // Change to: "https://link-to-certificate.com"
-    delay: "100",
-  },
-  {
-    id: 2,
-    title: "Certificate / Document 2",
-    description: "Add your certificate or documentation description here.",
-    icon: "ri-file-text-line",
-    image: null,
-    link: null,
-    delay: "200",
-  },
-  {
-    id: 3,
-    title: "Certificate / Document 3",
-    description: "Add your certificate or documentation description here.",
-    icon: "ri-medal-line",
-    image: null,
-    link: null,
-    delay: "300",
-  },
-  {
-    id: 4,
-    title: "Certificate / Document 4",
-    description: "Add your certificate or documentation description here.",
-    icon: "ri-bookmark-line",
-    image: null,
-    link: null,
-    delay: "400",
-  },
-  {
-    id: 5,
-    title: "Certificate / Document 5",
-    description: "Add your certificate or documentation description here.",
-    icon: "ri-shield-star-line",
-    image: null,
-    link: null,
-    delay: "500",
-  },
-  {
-    id: 6,
-    title: "Certificate / Document 6",
-    description: "Add your certificate or documentation description here.",
-    icon: "ri-graduation-cap-line",
-    image: null,
-    link: null,
-    delay: "600",
-  },
-];
+import dummyData from "../data";
 
 const Documentation = () => {
+  const documentationItems = dummyData.documentation;
   return (
     <section className="py-16" id="docs">
       <h2
