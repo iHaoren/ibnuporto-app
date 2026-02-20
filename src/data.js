@@ -49,7 +49,7 @@ const dummyData = {
     },
     {
       id: 4,
-      title: "Certificate / Document 4",
+      title: "Coming soon",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       icon: "ri-bookmark-line",
@@ -59,7 +59,7 @@ const dummyData = {
     },
     {
       id: 5,
-      title: "Certificate / Document 5",
+      title: "Coming soon",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       icon: "ri-shield-star-line",
@@ -69,7 +69,7 @@ const dummyData = {
     },
     {
       id: 6,
-      title: "coming soon",
+      title: "Coming soon",
       description:
         "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
       icon: "ri-graduation-cap-line",
