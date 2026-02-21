@@ -30,9 +30,9 @@ const About = () => {
           </h2>
           <div className="bg-stone-800/50 p-6 rounded-xl border border-stone-700/40">
             <p className="text-stone-300 leading-relaxed">
-              Hello! I&apos;m Ibnu Harun Almudzakir, a fresh graduate from a
+              Hello! I'm Ibnu Harun Almudzakir, a fresh graduate from a
               vocational high school majoring in Electrical Engineering.
-              I&apos;m currently exploring a career path in Python development,
+              I'm currently exploring a career path in Python development,
               bringing along the problem-solving mindset I built during my
               engineering studies.
               <br />
@@ -40,11 +40,11 @@ const About = () => {
               I enjoy learning new things — most of what I know about
               programming comes from online resources like YouTube and training
               programs from Dicoding Indonesia, including IDCamp 2025, Coding
-              Camp 2026, and AWS Back-End Academy. I&apos;m still growing and
+              Camp 2026, and AWS Back-End Academy. I'm still growing and
               always looking for opportunities to improve.
               <br />
               <br />
-              I&apos;m curious about how technology, especially AI, can help
+              I'm curious about how technology, especially AI, can help
               solve everyday problems — from automating simple tasks to
               supporting better decision-making. Down the road, I hope to
               contribute to projects that make a real difference, particularly
