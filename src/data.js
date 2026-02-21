@@ -24,7 +24,7 @@ const dummyData = {
         "Has finish Project Based Learning Off job Training on with specification.",
       icon: "ri-file-text-line",
       image: "/assets/docs/cert1.webp",
-      link: "https://link-to-certificate.com",
+      link: "https://drive.google.com/file/d/14le9MgD4DZBXhlO1qqSwH_k498eFbe3b/view?usp=sharing",
       delay: "100",
     },
     {
@@ -34,7 +34,7 @@ const dummyData = {
         "Completed the learning program at IDUKA (Industry, Business & Work World) in the form of Field Work Practice (PKL) held at PT ADIPRIMA SURAPRINTA.",
       icon: "ri-graduation-cap-line",
       image: "/assets/docs/cert2.webp",
-      link: null,
+      link: "https://drive.google.com/file/d/1Ni5l0IF5KHCMa-_yaNlnCQf5aC02j2rJ/view?usp=sharing",
       delay: "200",
     },
     {
@@ -44,7 +44,7 @@ const dummyData = {
         "The Self-Development Test (UPD) is one of the tests required for graduation at SMK Krian 2 Sidoarjo, replacing the National Examination (UN).",
       icon: "ri-graduation-cap-line",
       image: "/assets/docs/cert3.webp",
-      link: null,
+      link: "https://drive.google.com/file/d/10w_J5A3v_A-zUld-WxtOHSxKt52Vril7/view?usp=sharing",
       delay: "300",
     },
     {
