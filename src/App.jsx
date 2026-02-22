@@ -3,6 +3,7 @@ import About from "./components/About";
 import Gallery from "./components/Gallery";
 import Documentation from "./components/Documentation";
 import Contact from "./components/Contact";
+import { Analytics } from "@vercel/analytics/next";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Gallery />
       <Documentation />
       <Contact />
+      <Analytics />
     </main>
   );
 }
