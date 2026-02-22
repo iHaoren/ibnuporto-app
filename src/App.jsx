@@ -3,7 +3,6 @@ import About from "./components/About";
 import Gallery from "./components/Gallery";
 import Documentation from "./components/Documentation";
 import Contact from "./components/Contact";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
       <Gallery />
       <Documentation />
       <Contact />
-      <SpeedInsights />
     </main>
   );
 }
