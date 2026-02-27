@@ -49,12 +49,12 @@ const dummyData = {
     },
     {
       id: 4,
-      title: "Coming soon",
+      title: "Certificate of Competence",
       description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "Electrical Power Utilization Installation. On behalf of the Indonesian Professional Certification Authority (BNSP)",
       icon: "ri-bookmark-line",
-      image: null,
-      link: null,
+      image: "/assets/docs/cert4.webp",
+      link: "https://drive.google.com/file/d/1BvrO24AWxkuMy471sA7XHQz5FTEQkD1-/view?usp=sharing",
       delay: "400",
     },
     {
