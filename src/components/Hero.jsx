@@ -31,7 +31,7 @@ const Hero = () => {
               <TypeAnimation
                 sequence={[
                   3000,
-                  "Electronics Engineering Fresh Graduate | Python Enthusiast",
+                  "Dedicated Maintenance Operator skilled in engineering support and equipment maintenance.",
                 ]}
                 wrapper="span"
                 speed={60}
